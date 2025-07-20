@@ -1,0 +1,36 @@
+{
+  "name": "lightning-nowcast",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "next": "14.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-leaflet": "^4.2.1",
+    "leaflet": "^1.9.4",
+    "@aws-sdk/client-s3": "^3.517.0",
+    "netcdfjs": "^0.5.4",
+    "glur": "^1.1.2",
+    "ndarray": "^1.0.19",
+    "@upstash/redis": "^1.21.5",
+    "pngjs": "^7.0.0",
+    "swr": "^2.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "eslint": "^8.50.0",
+    "eslint-config-next": "14.1.0",
+    "prettier": "^3.2.5",
+    "husky": "^8.0.3",
+    "tailwindcss": "^3.4.2",
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.17"
+  }
+}
